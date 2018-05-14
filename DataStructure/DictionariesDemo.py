@@ -1,6 +1,4 @@
 #Introduction to the Python Dictionary
-
-"""
 dict1={'Rajesh':'IT','Gopal':'ME','Samya':'ECE','Soumik':'CSE'}
 print(dict1)
 print(dict1['Samya'])
@@ -14,7 +12,6 @@ print(dict1)
 print('Repeat' in dict1)
 print('Rajesh' in dict1)
 
-"""
 #dict() function to create dictionary from tuple of key:value pair
 
 dict2=dict((('India','Delhi'),('Australia','Sydney'),('Russia','Moskow')))
