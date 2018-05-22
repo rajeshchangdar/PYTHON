@@ -7,6 +7,7 @@
 <path>/${PROJECT_DIR_NAME}/DataStructure</path>
 <path>/${PROJECT_DIR_NAME}/PyString</path>
 <path>/${PROJECT_DIR_NAME}/PyFunction</path>
+<path>/${PROJECT_DIR_NAME}/PyExceptionHandling</path>
 </pydev_pathproperty>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python interpreter</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
