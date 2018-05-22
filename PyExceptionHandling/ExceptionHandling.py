@@ -11,6 +11,7 @@
 
 #num=int(input("Enter Number: ")) #Raises ValueError if enter non numeric number instead of numeric
 
+"""
 #Exception Handling Demo
 def get_number():
     num=float(input("Enter a Float Value: "))
@@ -24,10 +25,25 @@ if(__name__=='__main__'):
         except ValueError:
             print(" ValueEoor Exception Here")
             
+
+"""    
+#Raise Exception example in exception handling in Python
+try:
+    raise ValueError("A value error happened")
+
+except:
+    print("A Value Error in Our Code")
+
+#Use of finally in the exception handling
+try:
+    fobj=open("hello.txt","w")
+    res=12/5
+except ZeroDivisionError:
+    print("We have an error in division")
+finally:
+    fobj.close()
+    print("closing the file object..")
     
-
-
-
 
 
 
